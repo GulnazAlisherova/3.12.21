@@ -1,79 +1,74 @@
+.grid-example {
+  display: flex;
+  flex-wrap: wrap;
+}
+/*.grid-example > div{
+  flex: 25%;
+  padding: .5rem;
+}*/
 body {
-  margin: 0;
+  margin: 0 auto;
   background-color: tomato;
 }
 * {
   box-sizing: border-box;
 }
-
-/* @media (min-width: 900px) {
+/*@media  (min-width: 900px) {
   body {
     background-color: green;
   }
 }
-
-@media (max-width: 700px) {
+@media (max-width:700px) {
   body {
     background-color: blue;
   }
-}
+}*/
 
-@media print {
+/*@media (max-width: 900px) {
+  .grid-example > div{
+    flex: 0 0 33%;
+  }
+}
+@media (max-width: 750px) {
+  .grid-example > div{
+    flex: 0 0 50%;
+  }
+}
+@media (max-width: 600px) {
+  .grid-example > div{
+    flex: 0 0 100%;
+  }
+}*/
+.grid-example > div {
+  flex: 0 0 100%;
+  padding: .5rem;
+}
+@media (min-width: 600px) {
+  .grid-example > div {
+    flex: 0 0 50%;
+
+  }
+}
+@media (min-width: 750px) {
+  .grid-example > div {
+    flex: 0 0 33%;
+  }
+}
+@media (min-width: 900px) {
+  .grid-example > div {
+    flex: 0 0 25%;
+  }
+}
+/*@media screen {
   h1 {
     text-decoration: underline;
   }
 }
 h1 {
-  color: red;
+  color: rgb(157, 255, 0);
 }
 @media (orientation: portrait) {
   h1 {
     color: blue;
   }
-} */
-/* @media print {
-  .social-icons{
-    display: none;
-  }
-} типо рпи распечатке все иконы исчезают*/
-/* 
-
-@media (max-width: 900px) {
-  .grid-example > div {
-    flex:  0 0 33.333333%;
-  }
-}
-
-@media (max-width: 750px) {
-  .grid-example > div {
-    flex:  0 0 50%;
-  }
-}
-@media (max-width: 600px) {
-  .grid-example > div {
-    flex:  0 0 100%;
-  }
-} */
-.grid-example {
-  display: flex;
-  flex-wrap: wrap;
-}
-.grid-example > div {
-  flex:0 0 25%;
-  padding: 0.5rem;
-}
-@media (min-width: 600px) {
-  .grid-example > div {
-    flex:  0 0 100%;
-  }
-} 
-@media (min-width: 750px) {
-  .grid-example > div {
-    flex:  0 0 50%;
-  }
-} 
-@media (min-width: 900px) {
-  .grid-example > div {
-    flex:  0 0 33.333333%;
-  }
-} 
+}*/
