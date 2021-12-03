@@ -4,6 +4,10 @@ article{
 .float-right{
   float: right;
 }
+article img{
+  margin: .5rem;
+  
+}
 .float-left{
   float: left;
 }
