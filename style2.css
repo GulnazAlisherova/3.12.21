@@ -1,10 +1,13 @@
+article{
+  padding: .5rem;
+}
 .float-right{
   float: right;
 }
 .float-left{
   float: left;
 }
-@media  {
+@media (max-width: ) {
   img{
     border: ;
   }
