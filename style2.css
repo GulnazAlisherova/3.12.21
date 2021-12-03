@@ -3,17 +3,43 @@ article{
 }
 .float-right{
   float: right;
+  margin-right: 0;
 }
 article img{
   margin: .5rem;
   padding: .3rem;
-  border: 1px solid lightgray;
+  border: 1px solid gray;
 }
 .float-left{
   float: left;
 }
-@media (max-width: ) {
-  img{
-    border: ;
+@media (max-width: 900px ) {
+  article img{
+    width: 300px;
+  }
+}
+@media (max-width: 750px ) {
+  article img{
+    width: 250px;
+  }
+}
+@media (max-width: 600px ) {
+  article img{
+    width: 100%;
+  }
+}
+@media (max-width: 900px ) {
+  article p{
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 750px ) {
+  article p{
+    font-size: 1.1rem;
+  }
+}
+@media (max-width: 600px ) {
+  article p{
+    font-size: 1rem;
   }
 }
