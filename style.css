@@ -39,26 +39,8 @@ body {
     flex: 0 0 100%;
   }
 }*/
-.grid-example > div {
-  flex: 0 0 100%;
-  padding: .5rem;
-}
-@media (min-width: 600px) {
-  .grid-example > div {
-    flex: 0 0 50%;
 
-  }
-}
-@media (min-width: 750px) {
-  .grid-example > div {
-    flex: 0 0 33%;
-  }
-}
-@media (min-width: 900px) {
-  .grid-example > div {
-    flex: 0 0 25%;
-  }
-}
+
 /*@media screen {
   h1 {
     text-decoration: underline;
@@ -72,3 +54,37 @@ h1 {
     color: blue;
   }
 }*/
+.grid-example > div {
+  flex: 0 0 100%;
+  padding: .5rem;
+}
+@media (min-width: 600px) {
+  .grid-example > div {
+    flex: 0 0 50%;
+
+  }
+}
+@media (min-width: 750px) {
+  .grid-example > div {
+    flex: 0 0 33.3%;
+  }
+}
+@media (min-width: 900px) {
+  .grid-example > div {
+    flex: 0 0 25%;
+  }
+}
+img {
+  height: 100px;
+  object-fit: cover;
+}
+/*стиль дизайна два основеых*/
+.responsive {
+  width: 100%;
+}
+.adaptive {
+  width: 250px;
+}
+@media (max-width: 900px) {
+  
+}
