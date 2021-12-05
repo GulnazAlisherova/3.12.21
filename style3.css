@@ -46,4 +46,8 @@ background-color: rgb(30, 79, 238);
 }
 .btn {
   list-style-type: none;
+  padding: 10px;
+  color: #ffe484;
+  border-color: #ffe484;
+  background-color: #6f42c1;
 }
