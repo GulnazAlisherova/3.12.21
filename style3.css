@@ -51,4 +51,9 @@ background-color: rgb(30, 79, 238);
   border-color: #ffe484;
   background-color: #6f42c1;
   border-radius: 5px;
+  fo
+}
+.btn:hover{
+  background-color: #ffe484;
+  color: black;
 }
