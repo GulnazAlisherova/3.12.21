@@ -5,11 +5,10 @@ background-color: #6f42c1;
 }
 .navbar nav{
   display: flex;
-  justify-content: space-between;
- align-items: flex-start;
+  align-items: flex-start;
 
-max-width: 900px;
-margin: 0 auto;
+  max-width: 900px;
+  margin: 0 auto;
 
  padding: 15px 0;
 }
@@ -44,4 +43,7 @@ background-color: rgb(30, 79, 238);
 }
 .navbar .logo img{
   margin-right: 10px;
+}
+.btn {
+  list-style-type: none;
 }
